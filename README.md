@@ -1,1 +1,1 @@
-# comparing-habitability
+# Comparative Habitability Index of Solar System Worlds
