@@ -117,9 +117,6 @@ HI = 0.30 × solvent_norm  +
 ---
 
 ## Results & Discussion
-<p align="center">
-  <img src="habitability_bar_chart.png" width="700"/>
-</p>
 
 <p align="center">
   <img src="habitability_radar_chart.png" width="600"/>
