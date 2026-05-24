@@ -117,17 +117,8 @@ HI = 0.30 × solvent_norm  +
 ---
 
 ## Results & Discussion
-<p align="center">
-  <img src="habitability_bar_chart.png" width="700"/>
-</p>
+<img width="700" height="500" alt="habitability_bar_chart" src="https://github.com/user-attachments/assets/9b0256cb-b1fd-485d-800a-33e191ba7b83" />
 
-<p align="center">
-  <img src="habitability_radar_chart.png" width="600"/>
-</p>
-
-<p align="center">
-  <img src="habitability_heatmap.png" width="650"/>
-</p>
 
 ### Ranked Scores
 
