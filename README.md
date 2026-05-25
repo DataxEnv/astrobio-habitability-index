@@ -43,7 +43,7 @@ Several variable assignments reflect deliberate scientific judgment and carry in
 
 ### 2. Exploratory Analysis
 
-Descriptive statistics and variable distributions are examined prior to normalization to identify scale mismatches, outliers, and encoding anomalies. Solar flux spans approximately four orders of magnitude across the dataset (Earth: 1.0; Pluto: 0.0006), making pre-normalization treatment of energy variables necessary before aggregation.
+Descriptive statistics and variable distributions are examined prior to normalization to identify outliers, and encoding anomalies. Solar flux spans approximately four orders of magnitude across the dataset (Earth: 1.0; Pluto: 0.0006), making pre-normalization treatment of energy variables necessary before aggregation.
 
 ### 3. Normalization
 
