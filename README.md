@@ -43,7 +43,7 @@ Several variable assignments reflect deliberate scientific judgment and carry in
 
 ### 2. Exploratory Analysis
 
-Descriptive statistics and variable distributions are examined prior to normalization to identify scale mismatches, outliers, and encoding anomalies. Solar flux spans approximately four orders of magnitude across the dataset (Earth: 1.0; Pluto: 0.0006), making pre-normalization treatment of energy variables necessary before aggregation.
+Descriptive statistics and variable distributions are examined prior to normalization to identify outliers, and encoding anomalies. Solar flux spans approximately four orders of magnitude across the dataset (Earth: 1.0; Pluto: 0.0006), making pre-normalization treatment of energy variables necessary before aggregation.
 
 ### 3. Normalization
 
@@ -114,13 +114,10 @@ HI = 0.30 × solvent_norm  +
      0.10 × temp_norm
 ```
 
----
 
 ## Results & Discussion
-<<<<<<< HEAD
-=======
+
 <img width="700" height="500" alt="habitability_bar_chart" src="https://github.com/user-attachments/assets/9b0256cb-b1fd-485d-800a-33e191ba7b83" />
->>>>>>> eae5dc7ac4436ab7e7710ee22a9e9d52fc53f525
 
 
 ### Ranked Scores
@@ -138,40 +135,40 @@ HI = 0.30 × solvent_norm  +
 | 9 | Mars | 0.232 |
 | 10 | Pluto | 0.111 |
 
-### Tier A — Strong Astrobiological Candidates (HI > 0.55)
+### Tier A - Strong Astrobiological Candidates (HI > 0.55)
 
-**Earth (0.823)** scores highest across all dimensions and serves as the calibration anchor. The gap between Earth and the next-ranked body (~0.23) reflects its unique combination of a confirmed surface ocean, rich redox chemistry, active tectonics, and favorable surface temperature — conditions that are not replicated in full by any other body in the dataset.
+**Earth (0.823)** scores highest across all dimensions and serves as the calibration anchor. The gap between Earth and the next-ranked body (~0.23) reflects its unique combination of a confirmed surface ocean, rich redox chemistry, active tectonics, and favorable surface temperature; conditions that are not replicated in full by any other body in the dataset.
 
-**Europa (0.597) and Enceladus (0.588)** score nearly identically, which is consistent with their comparable standing in the current astrobiological literature. Both possess confirmed or strongly inferred subsurface liquid water oceans, high tidal heating from gravitational interaction with Jupiter and Saturn respectively, and strong redox disequilibrium signals. Enceladus's active plume system (confirmed by Cassini) provides direct evidence of water-rock interaction and organic chemistry at the ocean floor — the closest analogue to deep-sea hydrothermal systems identified beyond Earth. Europa's larger ocean volume and stronger tidal energy budget position it as an equally compelling target. The near-tie between these two bodies is a positive indicator of index internal consistency.
+**Europa (0.597) and Enceladus (0.588)** score nearly identically, which is consistent with their comparable standing in the current astrobiological literature. Both possess confirmed or strongly inferred subsurface liquid water oceans, high tidal heating from gravitational interaction with Jupiter and Saturn respectively, and strong redox disequilibrium signals. Enceladus's active plume system (confirmed by Cassini) provides direct evidence of water-rock interaction and organic chemistry at the ocean floor— the closest analogue to deep-sea hydrothermal systems identified beyond Earth. Europa's larger ocean volume and stronger tidal energy budget position it as an equally compelling target. The near-tie between these two bodies is a positive indicator of index internal consistency.
 
 **Titan (0.555)** scores strongly on organic chemistry, the highest organic complexity score in the dataset, driven by its dense nitrogen-methane atmosphere and confirmed surface hydrocarbon lakes. Its internal energy budget (moderate tidal and radiogenic heating) supports a possible subsurface water-ammonia ocean. Titan represents a chemically rich environment that challenges water-centric definitions of habitability; its high chemistry score partially compensates for uncertainty in its solvent and energy systems.
 
-### Tier B — Moderate Astrobiological Interest (HI 0.40–0.55)
+### Tier B - Moderate Astrobiological Interest (HI 0.40–0.55)
 
-**Ganymede (0.544)** sits just below Titan despite being the largest moon in the solar system and the only one with an intrinsic magnetic field. A subsurface saline ocean is strongly supported by Hubble observations of auroral rocking. However, Ganymede's ocean is likely sandwiched between ice layers, limiting water-rock contact and therefore hydrothermal chemistry — a key distinction from Europa and Enceladus that is reflected in its lower energy and geophysical scores.
+**Ganymede (0.544)** sits just below Titan despite being the largest moon in the solar system and the only one with an intrinsic magnetic field. A subsurface saline ocean is strongly supported by Hubble observations of auroral rocking. However, Ganymede's ocean is likely sandwiched between ice layers, limiting water-rock contact and therefore hydrothermal chemistry, a key distinction from Europa and Enceladus that is reflected in its lower energy and geophysical scores.
 
 **Triton (0.444)** is an underappreciated candidate. Active nitrogen geysers observed by Voyager 2, a possible subsurface ocean sustained by tidal heating from its retrograde capture orbit, and a young resurfaced terrain suggest ongoing geophysical activity. Its moderate chemistry scores and limited mission data introduce uncertainty.
 
 **Callisto (0.402)** scores similarly to Triton but is geophysically quieter. Magnetic induction measurements suggest a subsurface ocean, but the absence of confirmed tectonic or hydrothermal activity limits its score. Callisto's position near the bottom of Tier B highlights the importance of internal dynamics — ocean presence alone is insufficient without an active energy and chemistry budget.
 
-### Tier C — Low Astrobiological Interest (HI < 0.35)
+### Tier C - Low Astrobiological Interest (HI < 0.35)
 
-**Ceres (0.289)** shows evidence of briny subsurface water and possible cryovolcanic activity (bright spots in Occator Crater imaged by Dawn), but lacks confirmed hydrothermal activity and scores poorly on chemistry. It represents a marginal case — potentially habitable in localized subsurface brines but with limited sustained energy and chemical complexity.
+**Ceres (0.289)** shows evidence of briny subsurface water and possible cryovolcanic activity (bright spots in Occator Crater imaged by Dawn), but lacks confirmed hydrothermal activity and scores poorly on chemistry. It represents a marginal case; potentially habitable in localized subsurface brines but with limited sustained energy and chemical complexity.
 
-**Mars (0.232)** is the most notable result requiring discussion. Despite being the most extensively studied potentially habitable body beyond Earth, Mars ranks ninth in this index — below ocean worlds with far less direct observational coverage. This outcome is a direct consequence of the index framing: Mars's peak habitability was in its Noachian period (~3.5–4 Ga), when liquid surface water, volcanism, and a thicker atmosphere were present. Today, Mars has no confirmed liquid water body, low tidal heating, and weak redox disequilibrium at the surface. The index scores *current astrobiological interest* weighted toward subsurface liquid systems and internal energy — not historical habitability or surface geomorphology. Mars's low score is therefore not a dismissal of its astrobiological significance, but a consequence of this methodological framing. Subsurface perchlorate brines and deep geothermal gradients may sustain limited niches not captured by this variable set.
+**Mars (0.232)** is the most notable result requiring discussion. Despite being the most extensively studied potentially habitable body beyond Earth, Mars ranks ninth in this index — below ocean worlds with far less direct observational coverage. This outcome is a direct consequence of the index framing: Mars's peak habitability was in its Noachian period (~3.5–4 Ga), when liquid surface water, volcanism, and a thicker atmosphere were present. Today, Mars has no confirmed liquid water body, low tidal heating, and weak redox disequilibrium at the surface. The index scores *current astrobiological interest* weighted toward subsurface liquid systems and internal energy, not historical habitability or surface geomorphology. Mars's low score is therefore not a dismissal of its astrobiological significance, but a consequence of this methodological framing. Subsurface perchlorate brines and deep geothermal gradients may sustain limited niches not captured by this variable set.
 
 **Pluto (0.111)** correctly anchors the lower bound. No confirmed ocean, negligible tidal heating, minimal internal energy, and low chemical complexity leave little basis for astrobiological interest under current conditions.
 
 
 ## Limitations
 
-**Binary encoding of complex phenomena.** Hydrothermal activity, tectonics, and ocean presence are encoded as binary or low-resolution ordinal variables. These compress a wide range of geological complexity — the difference between Enceladus's confirmed active seafloor venting and Ganymede's possible but passive ocean floor is not fully captured.
+**Binary encoding of complex phenomena.** Hydrothermal activity, tectonics, and ocean presence are encoded as binary or low-resolution ordinal variables. These compress a wide range of geological complexity, the difference between Enceladus's confirmed active seafloor venting and Ganymede's possible but passive ocean floor is not fully captured.
 
 **Static representation.** The index represents current or near-current conditions. Mars's historical habitability during the Noachian period is not scored. A temporally integrated index would require different variable definitions.
 
 **Water-centric framing.** Subsurface ocean presence is weighted most heavily, which implicitly prioritizes water-based biochemistry. Titan's methane-ethane surface lakes and potential for alternative biochemistry are partially captured through the hydrocarbon liquids variable, but non-aqueous habitability is not fully represented.
 
-**Sparse observational coverage.** Several variable assignments — particularly for Triton, Callisto, and Ceres — are inferred from models or limited flyby data rather than dedicated orbital missions. Index scores for these bodies carry higher uncertainty than for well-characterised targets like Europa, Enceladus, and Mars.
+**Sparse observational coverage.** Several variable assignments—particularly for Triton, Callisto, and Ceres—are inferred from models or limited flyby data rather than dedicated orbital missions. Index scores for these bodies carry higher uncertainty than for well-characterised targets like Europa, Enceladus, and Mars.
 
 **Linear aggregation.** The weighted sum assumes that habitability dimensions contribute independently and additively. In reality, interactions between dimensions (e.g., liquid water is only relevant if energy is also present) are non-linear. 
 
